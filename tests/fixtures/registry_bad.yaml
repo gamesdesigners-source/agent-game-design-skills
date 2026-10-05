@@ -1,0 +1,22 @@
+entries:
+  - id: ENM-ogre
+    name: Ogre
+    status: canon
+    source: PROP-0001
+    refs: [WPN-club, ZON-missing]
+    tags: [tank]
+  - id: WPN-club
+    name: Club
+    status: proposed
+    source: PROP-0002
+    file: gdd/05-combat.md
+    refs: []
+  - id: ENM-ogre
+    name: Duplicate Ogre
+    status: canon
+    file: gdd/04-characters.md
+    refs: []
+  - id: BAD-thing
+    name: Unknown prefix
+    status: draft
+    refs: []

@@ -1,0 +1,13 @@
+{
+  "target_ttk": [2.0, 8.0],
+  "min_damage_fraction": 0.1,
+  "weapons": [
+    {"id": "WPN-short-sword", "damage": 12, "shots_per_sec": 2.0, "accuracy": 0.9, "crit_chance": 0.1, "crit_mult": 1.5},
+    {"id": "WPN-war-hammer", "damage": 40, "shots_per_sec": 0.6, "accuracy": 0.85},
+    {"id": "WPN-twig", "damage": 1, "shots_per_sec": 1.0}
+  ],
+  "enemies": [
+    {"id": "ENM-goblin", "hp": 30, "armor": 0},
+    {"id": "ENM-ogre", "hp": 150, "armor": 6}
+  ]
+}

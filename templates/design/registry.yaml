@@ -1,0 +1,12 @@
+# Registry of every named thing in the game. Written only by the GDD Owner.
+# Schema: _contracts/registry-schema.md
+# Validate: python3 scripts/validate_registry.py design/
+
+entries:
+  - id: P1
+    name: "Pillar 1 (replace me)"
+    status: proposed
+    source: init
+    file: gdd/00-overview.md
+    refs: []
+    tags: [pillar]

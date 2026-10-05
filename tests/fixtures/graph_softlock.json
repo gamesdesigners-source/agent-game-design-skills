@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {"id": "start", "type": "start"},
+    {"id": "fork"},
+    {"id": "pit"},
+    {"id": "end", "type": "end"},
+    {"id": "orphan"}
+  ],
+  "edges": [
+    {"from": "start", "to": "fork"},
+    {"from": "fork", "to": "end"},
+    {"from": "fork", "to": "pit"},
+    {"from": "fork", "to": "ghost"},
+    {"from": "start", "to": "end", "gated_by": "ITM-never"}
+  ]
+}

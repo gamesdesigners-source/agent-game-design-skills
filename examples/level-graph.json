@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"id": "entry", "type": "start"},
+    {"id": "hall"},
+    {"id": "armory"},
+    {"id": "vault"},
+    {"id": "boss", "type": "end"}
+  ],
+  "edges": [
+    {"from": "entry", "to": "hall"},
+    {"from": "hall", "to": "armory"},
+    {"from": "armory", "to": "hall"},
+    {"from": "hall", "to": "vault", "gated_by": "ITM-iron-key"},
+    {"from": "vault", "to": "boss"}
+  ],
+  "grants": {"armory": ["ITM-iron-key"]}
+}

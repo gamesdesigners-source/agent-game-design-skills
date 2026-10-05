@@ -1,0 +1,16 @@
+{
+  "horizon_hours": 20,
+  "currencies": ["CUR-gold", "CUR-dust"],
+  "sources": [
+    {"id": "kill_goblin", "currency": "CUR-gold", "attempts_per_hour": 60, "chance": 0.8, "amount": [3, 7]},
+    {"id": "daily_quest", "currency": "CUR-gold", "attempts_per_hour": 0.5, "chance": 1.0, "amount": 150}
+  ],
+  "sinks": [
+    {"id": "repairs", "currency": "CUR-gold", "per_hour": 80}
+  ],
+  "goals": [
+    {"id": "ITM-iron-sword", "currency": "CUR-gold", "cost": 500},
+    {"id": "ITM-plate-armor", "currency": "CUR-gold", "cost": 4000}
+  ],
+  "max_goal_gap_hours": 4
+}
